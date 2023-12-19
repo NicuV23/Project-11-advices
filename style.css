@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Barlow+Semi+Condensed&family=Inter:wght@400;700&family=Josefin+Sans:wght@700&family=League+Spartan:wght@700&family=Manrope:wght@600;800&family=Open+Sans&family=Outfit&family=Overpass&family=Poppins:ital,wght@0,300;0,400;1,400&family=Raleway:wght@700&family=Red+Hat+Text:wght@700&family=Rubik&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Manrope, sans-serif;
+}
+
+body {
+  background-color: hsl(218, 23%, 9%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  height: 100%;
+}
+
+.box {
+  background-color: hsl(218, 23%, 29%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  height: 300px;
+  width: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+}
+
+.dice {
+  width: 40px;
+  margin-top: 250px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.dice:hover {
+  box-shadow: 0px 0px 3px 3px green;
+  background-color: green;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.advicetext {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.adviceid {
+  color: green;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 40%;
+    height: 40%;
+  }
+}
